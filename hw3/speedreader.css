@@ -1,0 +1,77 @@
+/*
+	Daniel Tran
+	CSE 154 AD
+	20 April 2016
+	This file provides the styling for various elements in a speedreader website
+*/
+body {
+	background-color: #EAF6F6;
+	font-family: Garamond, serif;
+}
+
+button {
+	background-color: white;
+	border: 1px solid gray;
+	width: 70px;
+}
+
+:disabled {
+	background-color: lightgray;
+}
+
+#display, h1, #options {
+	text-align: center;
+}
+
+#display, textarea {
+	background-color: #FFFFFF;
+}
+
+#display {
+	border: 2px solid #8EBEBE;
+	border-radius: 5px;
+	height: 100px;
+	line-height: 100px;
+	margin: auto;
+	font-family: monospace;
+	font-size: 36pt;
+	font-weight: bold;
+	width: 80%;
+}
+
+fieldset {
+	border: 0;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+img {
+	width: 70px;
+}
+
+#input {
+	display: block;
+}
+
+input[type="radio"] {
+	margin-right: 7px;
+}
+
+legend {
+	border-bottom: 1px solid #8EBEBE;
+	font-size: 12pt;
+	font-weight: bold;
+	padding: 2px;
+	text-align: left;
+	width: 100%;
+}
+
+textarea {
+	border: 1px solid gray;
+}
+
+#validator {
+	position: absolute;
+	bottom: 0;
+	left: 5px;
+}

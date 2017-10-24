@@ -1,0 +1,47 @@
+/*--Daniel Tran
+	CSE 154 AE
+	6 April 2016
+	Assignment 1: Pie Recipe
+	This file renders the styling needed for the html page pie.html to make it more readable and
+	visually appealing for the user. Extra features added include a pie favicon in the tab,
+	a silverware background and pie list bullet points.
+*/
+body {
+	background-image: url(https://webster.cs.washington.edu/images/silverware.jpg);
+	color: #404040;
+	font-family: Georgia, Garamond, serif;
+	font-size: 11pt;
+}
+
+blockquote {
+	background-color: #FFFFA8;
+	font-style: italic;
+}
+
+h1, h2, a {
+	color: #A4A400;
+	text-decoration: underline;
+}
+
+h1, h2 {
+	background-color: #F0F0F0;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;	
+}
+
+h1 {
+	font-size: 22pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+span {
+	font-weight: bold;
+}
+
+ul {
+	list-style-image: url(https://webster.cs.washington.edu/images/pie-icon.gif);
+}

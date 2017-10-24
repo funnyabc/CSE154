@@ -1,0 +1,27 @@
+/*--Daniel Tran
+	CSE 154 AE
+	6 April 2016
+	Assignment 1: Pie Recipe
+	This file renders the styling for the page index.html, which also directs to the webpage that
+	gives a recipe for lemon meringue pie.
+*/
+body {
+	background-color: #536895;
+	color: white;
+	font-family: "Futura";
+}
+
+h1, h2 {
+	background-color: #FFB300;
+	color: white;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-size: 50pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30pt;
+}

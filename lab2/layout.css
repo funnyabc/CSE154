@@ -1,0 +1,30 @@
+body {
+	background-color: white;
+	background-image: url(https://webster.cs.washington.edu/images/spatula-background.gif);
+}
+
+.head {
+	background-color: #A8F0F0;
+	text-align: right;
+}
+
+#main {
+	border: 5px solid white;
+	background-color: white;
+}
+
+div.diary {
+	background-color: #E8FBFB;
+	border: 4px solid #C2E9E9;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+h2 span {
+	border-bottom: 2px dashed blue;
+}
+
+#motto {
+	font-size: 14pt;
+}

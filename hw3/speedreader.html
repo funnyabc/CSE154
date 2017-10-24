@@ -1,0 +1,66 @@
+<!--
+	Daniel Tran
+	CSE 154 AD
+	20 April 2016
+	This file provides the text needed for a speedreader website
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SpeedReader</title>
+	<link rel="stylesheet" type="text/css" href="speedreader.css">
+	<script type="text/javascript" src="speedreader.js"></script>
+</head>
+<body>
+	<h1>SpeedReader</h1>
+
+	<div id="display"></div>
+
+	<div id="options">
+		<fieldset>
+			<legend>Play Controls:</legend>
+			<button id="start">Start</button>
+			<button id="stop">Stop</button>
+		</fieldset>
+
+		<fieldset>
+			<legend>Speed:</legend>
+			<select id="speed">
+				<option value="500">50 wpm</option>
+				<option value="200">300 wpm</option>
+				<option selected="selected" value="171">350 wpm</option>
+				<option value="150">400 wpm</option>
+				<option value="133">450 wpm</option>
+				<option value="120">500 wpm</option>
+			</select>
+		</fieldset>
+
+		<fieldset id="test">
+			<legend>Size:</legend>
+			<input type="radio" name="cc" id="medium" value="36" checked="checked" />Medium
+			<input type="radio" name="cc" id="big" value="48" />Big
+			<input type="radio" name="cc" id="bigger" value="60" />Bigger
+		</fieldset>
+
+		<div id="input">
+			<fieldset>
+				<legend>Input Text</legend>
+				<textarea id="textinput" name="text" rows="10" cols="80"></textarea> 
+			</fieldset>
+		</div>
+	</div>
+
+	<div id="validator">
+		<a href="https://webster.cs.washington.edu/validate-html.php">
+		<img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="htmlvalidator">
+		</a>
+		<a href="https://webster.cs.washington.edu/validate-css.php">
+		<img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="cssvalidator">
+		</a>
+		<a href="https://webster.cs.washington.edu/jslint/?referer">
+		<img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="jsvalidator">
+		</a>
+	</div>
+
+</body>
+</html>

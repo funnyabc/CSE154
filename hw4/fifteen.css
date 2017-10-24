@@ -1,0 +1,42 @@
+/*
+	Daniel Tran
+	CSE 154 AD
+	Homework 4
+	This CSS file sets the initial setup of the webpage containing a 15 piece puzzle
+*/
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.movable:hover {
+	border-color: red;
+	color: red;
+	cursor: pointer;
+}
+
+#output {
+	color: red;
+	font-family: Futura;
+	font-size: 45pt;
+	font-weight: bold;
+}
+
+#puzzlearea {
+	height: 400px;
+	margin: auto;
+	position: relative;
+	width: 400px;
+}
+
+.tile {
+	background-image: url('background.jpg');
+	border: 5px solid black;
+	cursor: default;
+	display: inline-block;
+	font-size: 40pt;
+	height: 90px;
+	position: absolute;
+	width: 90px;
+}

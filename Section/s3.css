@@ -1,0 +1,34 @@
+body     { 
+	text-align: center; 
+}
+div      { 
+	border: 1px dashed gray; padding: 0.5em; margin: 0.5em;
+}
+#one { 
+	background-color: #ff9999; 
+}
+#two     { 
+	background-color: yellow; 
+	float: left;
+}
+#three   { 
+	background-color: #ccffcc; 
+	float: right;
+}
+#four    { 
+	background-color: #ccccff; 
+	float: right;
+	text-align: left;
+}
+#five    { 
+	background-color: #ffdddd; 
+	float: left;
+	text-align: right;
+}
+
+#six     { 
+	background-color: #cccccc; 
+}
+#seven   { 
+	background-color: #9999ff;
+}

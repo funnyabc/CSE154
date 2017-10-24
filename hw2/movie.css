@@ -1,0 +1,150 @@
+/*	Daniel Tran
+	CS 154 AD
+	13 April 2016
+	Assignment 2: Movie Review
+	This file gives the styling for the website Rancid Tomatoes
+*/
+body {
+	background-image: url(https://webster.cs.washington.edu/images/moviebg.png);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	padding: 0;
+}
+
+h1 {
+	font-size: 24pt;
+	text-shadow: 3px 3px #999999;
+}
+
+dl {
+	padding-top: 0;
+	padding-left: 10pt;
+	padding-right: 10pt;
+}
+	
+dt {
+	padding-top: 10pt;
+}
+
+ul {
+	padding-left: 0;
+}
+
+p span {
+	font-style: italic;
+}
+
+#overview, #overview img, #review img {
+	border-top-right-radius: 20px;
+}
+
+#review img {
+	vertical-align: bottom;
+	margin-right: 14px;
+}
+
+#overview {
+	width: 250px;
+	border: 0px;
+}
+
+#top, body, dl {
+    margin: 0;
+}
+
+h1, #pagenumber, #top, #top img {
+	text-align: center;
+}
+
+#top {
+	background-image: url(https://webster.cs.washington.edu/images/rancidbannerbg.png);
+	height: 50px;
+}
+
+#pagenumber {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#overall, #pagenumber {
+	width: 800px;
+}
+
+#overview, #pagenumber {
+	background-color: #A2B964;
+}
+
+#pagenumber p {
+	margin: 5px;
+}
+
+#reaction, #review {
+	width: 550px;
+}
+
+dt, #percentage {
+	font-weight: bold;
+}
+
+#percentage {
+	color: red;
+	font-size: 48pt;
+}
+
+#links {
+	list-style-type: none;
+}
+
+#review {
+	background-image: url(https://webster.cs.washington.edu/images/rottenlargebg.png);
+	height: 83px;
+}
+
+dl, #overview, #pagenumber, #validator {
+	float: right;
+}
+
+#overall {
+	background-color: #EEEEEE;
+	box-shadow: 5px 5px 5px gray;
+	margin: auto;
+}
+
+.criticscol {
+	padding-left: 2%;
+	width: 47%;
+}
+
+.criticscol p:nth-child(even) img {
+	margin-right: 5px;
+}
+
+.criticscol p img, #reaction, #review, .criticscol {
+	float: left;
+}
+
+.criticscol p:nth-child(even) {
+	margin-bottom: 20pt;
+}
+
+.criticscol p:nth-child(odd) {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	padding: 8px;
+}
+
+h1, .criticscol p:nth-child(odd)  {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.criticscol p, #overall {
+	overflow: hidden;
+}
+
+.criticscol p:nth-child(odd) img {
+	padding-right: 5px;
+}
+
+.criticscol p:nth-child(odd), #overall {
+	border-radius: 20px;
+}

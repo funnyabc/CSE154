@@ -1,0 +1,59 @@
+/*
+	Daniel Tran
+	CSE 154 AD
+	2 June 2016
+	Homework 8
+	This file provides the styling for the MyMDB page elements
+*/
+
+#banner, #w3c {
+	background-image: url("https://webster.cs.washington.edu/images/kevinbacon/banner-background.png");
+	color: white;
+	padding: 1em;
+}
+
+body {
+	background-color: #dad9d4;
+	font-family: "Verdana", sans-serif;
+}
+
+#main {
+	color: black;
+}
+
+#frame {
+	background-color: white; 
+}
+
+#main, table, #frame {
+	width: 90%;	
+}
+
+#main, form, #frame {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table tr:nth-child(even) {
+	background-color: #dad9d4;
+}
+
+table {
+	border-spacing: 0;
+	border: 1px solid #dad9d4;
+	margin: 0 auto;
+}
+
+form {
+	width: 24em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+legend {
+	margin: 0;
+}
+
+h1, p, fieldset div, td, th, table {
+	text-align: center;
+}

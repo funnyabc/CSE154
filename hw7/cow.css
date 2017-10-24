@@ -1,0 +1,36 @@
+/*
+		Daniel Tran
+		CSE 154 AD
+		25 May 2016
+		Assignment 7
+		This file give styling to the page Remember the Cow
+*/
+
+.bluebar {
+	background-color: #005AB4;
+	color: white;
+	padding: 0.5em;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+}
+
+#mainarea {
+	color: #005AB4;
+	font-weight: bold;
+}
+
+h1 {
+	display: inline-block;
+	margin: 0;
+}
+
+img {
+	margin-right: 1em;
+}
+
+form {
+	display: inline;
+}
